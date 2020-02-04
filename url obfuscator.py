@@ -21,7 +21,8 @@ url=''
 open_redirect=[ 
                 'https://www.google.com/url?q=',  # Redirect using Google .[  Google Redirect Notice. ] [ source: Google ]
                 'https://via.hypothes.is/' ,      # Annotation service.     [ No warning ] [ source : Google ]
-                'https://facebook.com/l.php?u=',  # Facebook Redirect       [ source : Google ]
+                'https://facebook.com/l.php?u=',  # Facebook Open Redirect       [ source : Google ]
+                'http://vk.com/away.php?to=',     # Open Redirect in Russian Social Media vk.com [ No warning! ]
                 'https://google.com/url?q='     , # Variant of above redirect. [ Warning prsent ] [ source: M.Anish ]
                 'https://googleweblight.com/i?u=' ,# Redirect using Googleweblight [ No warning ]  [ source: Google ]
                 'http://google.com/gwt/x?wsc=eb&u=', # Redirect using Googleweblight [ No warning ]  [ source: Virustotal ]
