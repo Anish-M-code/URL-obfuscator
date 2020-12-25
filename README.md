@@ -4,6 +4,27 @@ A simple Python Program to obfuscate URLs to make phishing urls more difficult t
 
 <img src="https://github.com/Anish-M-code/URL-obfuscator/raw/master/screenshot.png">
 
+Quick Installation
+------------------
+
+To Install from [PyPI](https://pypi.org/project/badurls/):
+
+Run the following commands in Linux terminal / Windows powershell / command prompt to install from pypi:-
+
+```
+pip install badurls
+```
+Then type these commands to get started:-
+
+For Windows:
+```
+py -m badurls
+```
+For Linux based Distributions:
+```
+python3 -m badurls
+```
+
 This tool uses public open redirects and http basic auth to make phishing attacks
 difficult to detect. Includes Tor onion services which are vulnerable to open redirects too.
 
