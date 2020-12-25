@@ -30,7 +30,7 @@ difficult to detect. Includes Tor onion services which are vulnerable to open re
 
 This Tool was originally developed to check effectiveness of Antiviruses and user education as defensive measures against obfuscated URLs.
 
-<img src="https://github.com/Anish-M-code/URL-obfuscator/raw/master/screenshot.png">
+<img src="https://github.com/Anish-M-code/URL-obfuscator/raw/master/message.png">
 
 My PGP key to verify this software is available here https://outflaw.blogspot.com/2019/12/my-pgp-key.html
 
