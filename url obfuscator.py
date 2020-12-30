@@ -15,7 +15,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-url=''
 
 #List of publicly discovered open_redirects.
 open_redirect=[ 
@@ -44,39 +43,44 @@ open_redirect=[
                 'http://r.3g2upl4pq6kufc4m.onion/l/?kh=-1&uddg=' #Open_redirect.[ No warning ][ source: M.Anish ]               
                 ]
 
-#Function to get URL from user which will be obfuscated by the program.                
-def get_url():
-  print('\n Enter url: ',end='') 
-  global url
-  tmp=input()
-  if tmp.startswith('http://') or tmp.startswith('https://'):
-     url=tmp
-  else:
-     url='http://'+tmp
-
-get_url()
-
 #Function to write obfuscated URLs to url_obfuscated.txt file.
-def file_w():
+def file_w(content):
   with open('url_obfuscated.txt','w') as f:
-     for i in open_redirect:
-        f.write(i+url+'\n')
-        
-file_w()
-
+    f.write(content)
+    
 #Function to obfuscate url using http basic auth.
-def http_basic_auth():
+def http_basic_auth(url):
+    a = ""
     custom_url=[
                  'http://competitions_for_college_students@',
                  'http://ai_research_for_college_students@',
                  'http://free_certification_courses@',
-                ]            
-    with open('url_obfuscated.txt','a+')as f:
-        for i in custom_url:
-            if url.startswith('https://'):
-               f.write(i+url.strip('https://')+'\n') 
-            elif url.startswith('http://'):
-               f.write(i+url.strip('http://')+'\n')
+                ]
+    for i in custom_url:
+        if url.startswith('https://'):
+            a += i+url.strip('https://')+'\n'
+        elif url.startswith('http://'):
+            a += i+url.strip('http://')+'\n'
+    return a
 
-http_basic_auth()            
-x=input('Press to continue...')
+                     
+def main():
+    print("URL-obfuscator".center(50, "_"))
+    data = """
+URL : https://github.com/gowtham758550/URL-obfuscator.
+
+Obfuscated URL's
+"""
+    url = input("Enter url : ")
+    if not(url.startswith("https://") or url.startswith("http://")):
+        url = "http://" + url		
+    for i in open_redirect:
+    	data += i 
+    	data += url 
+    	data += "\n"
+    file_w(data + http_basic_auth(url))
+    print("Check obfuscated urls in url_obfuscated.txt")
+	  	
+
+if __name__ == "__main__":
+	main()
