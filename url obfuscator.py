@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-
+from os import getcwd
 #List of publicly discovered open_redirects.
 open_redirect=[ 
                 'https://www.google.com/url?q=',  # Redirect using Google .[  Google Redirect Notice. ] [ source: Google ]
@@ -79,7 +79,7 @@ Obfuscated URL's
     	data += url 
     	data += "\n"
     file_w(data + http_basic_auth(url))
-    print("Check obfuscated urls in url_obfuscated.txt")
+    print(f"Check obfuscated urls in {getcwd()}/url_obfuscated.txt")
 	  	
 
 if __name__ == "__main__":
