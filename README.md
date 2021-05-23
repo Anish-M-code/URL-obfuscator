@@ -14,15 +14,10 @@ Run the following commands in Linux terminal / Windows powershell / command prom
 ```
 pip install badurls
 ```
-Then type these commands to get started:-
+Then simply type following command to get started:-
 
-For Windows:
 ```
-py -m badurls
-```
-For Linux based Distributions:
-```
-python3 -m badurls
+badurls
 ```
 
 This tool uses public open redirects and http basic auth to make phishing attacks
