@@ -2,7 +2,7 @@
 
 A simple Python Program to obfuscate URLs to make phishing urls more difficult to detect.
 
-<img src="https://github.com/Anish-M-code/URL-obfuscator/raw/master/screenshot.png">
+<img src="https://user-images.githubusercontent.com/82881725/212545123-19b4d338-63f0-4330-a31e-2a16cc4dbcfb.png">
 
 Quick Installation
 ------------------
