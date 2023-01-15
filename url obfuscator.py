@@ -1,6 +1,6 @@
 
 # URL Obfuscator 
-# Copyright (C) 2019-2022 M.Anish <aneesh25861@gmail.com>
+# Copyright (C) 2019-2023 M.Anish <aneesh25861@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
