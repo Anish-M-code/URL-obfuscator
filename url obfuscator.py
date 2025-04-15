@@ -35,7 +35,7 @@ open_redirect=[ '--- URLS with Redirection Notice ---\n',
                   
                 '\n--- ONION URLs ---\n',
                
-                'http://darkzqtmbdeauwq5mzcmgeeuhet42fhfjj4p5wbak3ofx2yqgecoeqyd.onion/redirect.php?url='  [ No warning ]
+                'http://darkzqtmbdeauwq5mzcmgeeuhet42fhfjj4p5wbak3ofx2yqgecoeqyd.onion/redirect.php?url=' # [ No warning ]
                 ]
 
 #Function to get URL from user which will be obfuscated by the program.                
