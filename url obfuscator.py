@@ -28,11 +28,22 @@ open_redirect=[ '--- URLS with Redirection Notice ---\n',
                 '\n--- URLS with No Redirection Warnings ---\n',
 
                 'https://via.hypothes.is/' ,      # Annotation service.     [ No warning ] [ source : Google ]
-                'http://vk.com/away.php?to=',     # Open Redirect in Russian Social Media vk.com [ No warning! ]
+                'http://vk.com/away.php?to=',     # Open Redirect in Russian Social Media vk.com [ No warning! ] 
                 'https://l.wl.co/l?u=',              # Open_redirect Whatsapp Business Account Profile website links. [ source:M.Anish]
                 'https://www.digit.in/flipkart/intermediate?url=', # [ Easy to detect ]
                 'https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstFA55hCSrFSTBDNko3225YAz6GkouTQlHjExWXRbT5OPMnSlE8Wh4LAVp-D7jWRr-LcKW0w-HH1g8lCVAK_eU-5azfUXfjqfTiHFOFWV9I8m2ZaGczGlov1iY8kMSnelCX-AHG6VYBmpcZJapT1XbdlOM3B9u9whYqpkxEpFLbkzwDao00-DL8JyS7UIxIApb_JHANRmtKLSuRcM8IWqFaP0cOc8n8jTedmwHc8oAw2MV2tRUaAnN3eaxaESpc8fovDeWslJ0A3duo5g46YzCYxQ8A56RI5MGcQw4TZj6TeWuj6jRjAe7g0X18--IBmztC1sUi6XuHkB1Ew-z_h9bv1XK-s_9L6zeDfQPtMsI3hOqp8T8545VdgCoElxs&sig=Cg0ArKJSzEpZ_YMvCKWCEAE&fbs_aeid=[gw_fbsaeid]&urlfix=1&adurl=', # [ No warning ]
-                  
+                'http://www.newadcenter.com/click.php?a=101&x=tvrnd05eyzbpreuwtvmwmk5pnhlorgt1tnpfdu1qvxg%3D&z=20&c=1&adurl=322717&url=',
+                'https://cdp.thegoldwater.com/click.php?id=74&url=',
+                'http://webmail.elsewhere.se/horde/services/go.php?url=',
+                'https://pavon.kz/proxy?url=',
+                'https://www.watchonline.jp/redirect.php?url=',
+                'https://mnogo.ru/out.php?link=',
+                'http://www.triplets.ru/go/url=',
+                'https://cpod.ippk.ru/go/url=',
+                'https://work.elcode.ru/subscribe/link/?hash=3a7039658967bb95eaa80355890373f3&id_send=8742&id_email=18867&url=',
+                'http://www.receivers.ru/goto.php?url=',
+                'http://www.pmprofy.ru/redir.asp?id=',
+               
                 '\n--- ONION URLs ---\n',
                
                 'http://darkzqtmbdeauwq5mzcmgeeuhet42fhfjj4p5wbak3ofx2yqgecoeqyd.onion/redirect.php?url=' # [ No warning ]
