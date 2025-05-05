@@ -27,3 +27,12 @@ This Tool was originally developed to check effectiveness of Antiviruses and use
 
 THE DEVELOPER WILL NOT BE RESPONSIBLE FOR ANY DAMAGES ARISING FROM THE USE OF THIS TOOL. THE USERS WILL BE FULLY RESPONSIBLE FOR THE CONTENT THEY USE USING THIS TOOL.
 THIS TOOL WAS DEVELOPED FOR EDUCATIONAL AND ETHICAL EXPERIMENTING PURPOSE ONLY AND NOT FOR SPAMMING OR TARGETING ANYONE.
+
+FAQ
+---
+
+ - <b> My Website / Company website is in Active Redirect List will you remove it now? Did you hack our website? </b>
+
+ You can open github issue if you want the website to be removed. It is better to fix on your backend than asking me to remove from this list .No I didn't hack website all open redirects present here are already exploited in public.
+
+ 
